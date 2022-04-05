@@ -156,7 +156,7 @@ set(SQLITECPP_DOC
 )
 source_group(doc FILES ${SQLITECPP_DOC})
 
-option(SQLITECPP_INCLUDE_SCRIPT "Include config & script files." ON)
+option(SQLITECPP_INCLUDE_SCRIPT "Include config & script files." OFF)
 if (SQLITECPP_INCLUDE_SCRIPT)
     # list of config & script files of the library
     set(SQLITECPP_SCRIPT
